@@ -17,7 +17,7 @@ function submitted(){
   	Age: Age.value
   }
   console.log(answers);
- window.alert("youre username is "+Name.value);
+ window.alert("your username is "+Name.value);
  ref.push(answers);
 
 
