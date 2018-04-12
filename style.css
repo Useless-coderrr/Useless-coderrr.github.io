@@ -1,0 +1,11 @@
+.body{
+	margin:0;
+	padding:0;
+	background:url(Vincent van Gogh.jpg);
+	background-size:cover;
+	background-color:rgba(0,0,0,255);
+	font-family: sans-serif;
+	background-position: center;
+
+
+}
