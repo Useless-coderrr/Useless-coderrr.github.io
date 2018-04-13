@@ -1,34 +1,34 @@
 body{
 	margin:0;
 	padding:0;
-	background:#06153E;
+	background:white;
 	background-size:cover;
 	font-family:sans-serif;
 	background-position:center center;
 	position: relative;
     top: 0;
     bottom: 0;
-    color: #fff;
+    color: #1D1F21;
     height: 100vh;
     font-size: 14px;
 
 }
 body input[type="text"]{
 	border: none;
-	border-bottom: solid #fff;
+	border-bottom: solid #1D1F21;
 	background: transparent;
 	outline: none;
 	height: 20px;
-	color: #fff;
+	color: #1D1F21;
 	font-size: 14px;
 }
 body input[type="number"]{
 	border: none;
-	border-bottom: solid #fff;
+	border-bottom: solid #1D1F21;
 	background: transparent;
 	outline: none;
 	height: 20px;
-	color: #fff;
+	color: #1D1F21;
 	font-size: 14px;
 }
 body input[type="button"]{
