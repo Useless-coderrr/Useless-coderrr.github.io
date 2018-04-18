@@ -8,8 +8,38 @@
 <body>
 	<center><p>
 Name: <input type="text" id="username" placeholder="username"><br>
- Age:  <input type="number" id="Age" placeholder="Age"><br>
-<input type="button" onClick="submitted()" value="submit"><br>
+ Age:  <input type="number" id="Age" placeholder="Age"><br><br>
+ Gender:<select id="Sex">
+	<option value="Male" id="Sex">Male</option>
+	<option value="Female" id="Sex">Female</option>
+</select><br><br>
+Your fav programing language?
+<select id="lang">
+	<option value="C++" id="lang">C++</option>
+	<option value="HTML" id="lang">HTML</option>
+	<option value="SQL" id="lang">SQL</option>
+</select><br><br>
+What would you rather be?
+<select id="Job">
+	<option value="Programmer" id="Job">Programmer</option>
+	<option value="Designer" id="Job">Designer</option>
+	<option value="Analyst" id="Job">Analyst</option>
+</select><br><br>
+What is your fav app for coding?
+<select id="app">
+	<option value="sublime_text" id="app">sublime text</option>
+	<option value="Eclipse" id="app">Eclipse</option>
+	<option value="visual_studio" id="app">visual studio</option>
+</select><br><br>
+How good are you with programming?
+<select id="code">
+	<option value="Ok" id="code">Ok</option>
+	<option value="Good" id="code">Good</option>
+	<option value="Great" id="code">Great</option>
+</select><br><br>
+Have anything to add?
+<input type="text" id="desc" placeholder="Description"><br><br>
+<input type="button" onClick="submitted()" value="submit"><br><br>
     </center>
     <script type="text/javascript" src="file.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
