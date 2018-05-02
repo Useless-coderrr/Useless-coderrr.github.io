@@ -4,7 +4,8 @@ function submitted(){
  var Lang=document.getElementById('lang');
  var Sex=document.getElementById('Sex');
  var Job=document.getElementById('Job');
- var App=document.getElementById('app');
+ var Lec=document.getElementById('lec');
+ var B=document.getElementById('b');
  var Code=document.getElementById('code');
  var Desc=document.getElementById('desc');
  
@@ -18,19 +19,20 @@ function submitted(){
   };
   firebase.initializeApp(config);
   var database=firebase.database();
-  var ref=database.ref('answers');
-  var answers={
+  var ref=database.ref('answers2');
+  var answers2={
   	name: Name.value,
   	Age: Age.value,
     Gender: Sex.value,
     Job: Job.value,
     Lang: Lang.value,
     code: Code.value,
-    App: App.value,
+    Best: B.value,
+    Lec: Lec.value,
     Desc: Desc.value
   }
-  console.log(answers);
+  console.log(answers2);
  window.alert("Thank you for contributing "+Name.value);
- ref.push(answers);
+ ref.push(answers2);
 
 }

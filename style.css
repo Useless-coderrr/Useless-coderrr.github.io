@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-	background:white;
+	background:url(p2.jpg);
 	background-size:cover;
 	font-family:sans-serif;
 	font-weight:700;
@@ -9,10 +9,18 @@ body{
 	position: relative;
     top: 0;
     bottom: 0;
-    color: #1D1F21;
+    line-height: 20px;
+    color:white;
     height: 100vh;
     font-size: 14px;
-
+}
+form{
+	background:rgba(0,0,0,0.7);
+	width: 400px;
+	height: 560px;
+	transform: translate(465px,0px);
+	position: absolute;
+	padding: 70px 20px; 
 }
 body input[type="text"]{
 	border: none;
@@ -20,7 +28,7 @@ body input[type="text"]{
 	background: transparent;
 	outline: none;
 	height: 20px;
-	color: #1D1F21;
+	color: #fff;
 	font-size: 14px;
 }
 body input[type="number"]{
@@ -29,14 +37,14 @@ body input[type="number"]{
 	background: transparent;
 	outline: none;
 	height: 20px;
-	color: #1D1F21;
+	color: #fff;
 	font-size: 14px;
 }
 body input[type="button"]{
 	border: none;
 	outline: none;
 	height: 30px;
-	background: #fb2525;
+	background: rgba(0,200,100,0.2);
 	color: #fff;
 	font-size: 14px;
 }
@@ -46,5 +54,7 @@ body input[type="button"]:hover{
 	color: #000;
 }
 body select{
-	background-color:#fb2525;
+	background-color: rgba(0,200,100,0.2);
+	color: #fff;
+	border: none;
 }
